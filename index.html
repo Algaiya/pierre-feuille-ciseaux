@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu - Pierre Feuille Ciseaux</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <div id="titre"><h1>Jeu du Pierre Feuille Ciseaux</h1></div>
+    <div id="regles">
+        <span>Les règles du jeu sont simple:<br>Vous devez choisir une forme (Pierre, Feuille ou Ciseaux).<br>La plus forte des formes l'emporte et le joueur marque le point gagnant.<br>Si les deux joueurs utilisent la même forme, c'est un match nul.</span>
+    </div>
+    <section>
+        <div class="choix">
+            <h4>Vous <span id="choix-utilisateur"></span> </h4>
+            <h4>Ordinateur <span id="choix-ordinateur"></span> </h4>
+        </div>
+        <h4><span id="resultat"></span></h4>
+        <div class="boutons_choix_jeu">
+            <button id="pierre">Pierre</button>
+            <button id="feuille">Feuille</button>
+            <button id="ciseaux">Ciseaux</button>
+        </div>
+    </section>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
