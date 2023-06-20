@@ -12,7 +12,7 @@ choixPossibles.forEach(choixPossibles => choixPossibles.addEventListener('click'
     //Récupération de l'ID du bouton cliqué
     choixUtilisateur = e.target.id;
     //On ajoute l'image qui correspond au choix
-    contenantChoixUtilisateur.innerHTML = `<img src="./assets/images/${choixUtilisateur}.png">`
+    contenantChoixUtilisateur.innerHTML = `<img src="https://algaiya.github.io/pierre-feuille-ciseaux/assets/images/${choixUtilisateur}.png">`
     generer_choix_ordinateur();
     verification()
 }))
@@ -32,7 +32,7 @@ function generer_choix_ordinateur() {
         choixOrdinateur = "ciseaux"
     }
     //On ajoute l'image qui correspond au choix
-    contenantChoixOrdinateur.innerHTML = `<img src="./assets/images/${choixOrdinateur}.png">`
+    contenantChoixOrdinateur.innerHTML = `<img src="https://algaiya.github.io/pierre-feuille-ciseaux/assets/images/${choixOrdinateur}.png">`
 }
 
 //Fonction pour vérifier si l'utilisateur a remporté la partie
